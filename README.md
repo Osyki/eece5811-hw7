@@ -88,8 +88,8 @@ However, for read speeds my results are not consistent with the textbook's theor
 - `RAID<level>.go`: Contains the implementation of each RAID level (RAID 0, RAID 1, RAID 4, RAID 5).
 
 ### Libraries Used
-- bytes: For byte slice manipulations and reading/writing data.
-- fmt: For formatted I/O operations.
-- time: For measuring performance.
-- io: For I/O operations.
-- path/filepath: For file path manipulations.
+- `bytes`: For byte slice manipulations and reading/writing data.
+- `fmt`: For formatted I/O operations.
+- `time`: For measuring performance.
+- `io`: For I/O operations.
+- `path/filepath`: For file path manipulations.
