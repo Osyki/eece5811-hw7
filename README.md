@@ -82,10 +82,10 @@ However, for read speeds my results are not consistent with the textbook's theor
 4. Run the following command to execute the program: `go run .`
 
 ### Design of Program
-- main.go: Contains the main function to run the RAID simulation.
-- common.go: Contains common constants and utility functions used across the program. You can change the disk size and block size here.
-- utils.go: Contains utility functions for file operations and data generation. We create the disk files here in the directory './disks' which can be changed in common.go. The directory and files created and then deleted after each run.
-- RAID\<level>.go: Contains the implementation of each RAID level (RAID 0, RAID 1, RAID 4, RAID 5).
+- `main.go`: Contains the main function to run the RAID simulation.
+- `common.go`: Contains common constants and utility functions used across the program. You can change the disk size and block size here.
+- `utils.go`: Contains utility functions for file operations and data generation. We create the disk files here in the directory './disks' which can be changed in common.go. The directory and files created and then deleted after each run.
+- `RAID<level>.go`: Contains the implementation of each RAID level (RAID 0, RAID 1, RAID 4, RAID 5).
 
 ### Libraries Used
 - bytes: For byte slice manipulations and reading/writing data.
